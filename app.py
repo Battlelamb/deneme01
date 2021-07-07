@@ -6,6 +6,8 @@ from uuid import uuid4
 
 app = Flask(__name__)
 
+# test
+
 # Veritabanı bağlantısı
 app.config['MONGODB_SETTINGS'] = {
     "db": "todo_app_data",
